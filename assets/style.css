@@ -1,0 +1,54 @@
+/* basic color pallete */
+:root{
+    --primary:#2a6592;
+    --secondary:#f6d8ac;
+    --accent1:#8ec3eb;
+    --accent2:#7e9a9a;
+    --accent3:#db9833;
+    --accent4:#f0f8ff;
+}
+
+body{
+    
+    background-color:var(--secondary)
+}
+
+.custom-header{
+
+    background-color:var(--primary)
+}
+
+.custom-concepts{
+
+    background-color:var(--accent3)
+}
+
+.custom-projectinfo{
+
+    background-color: var(--primary);
+}
+
+.custom-cardheader{
+
+    background: var(--primary);
+}
+
+.custom-p{
+
+    background-color: var(--secondary);
+}
+
+.custom-add{
+
+    background-color: var(--accent3);
+}
+
+.custom-window{
+
+    background-color: var(--accent4);
+}
+
+.custom-windowheader, .custom-windowfooter{
+
+    background-color: var(--primary);
+}
